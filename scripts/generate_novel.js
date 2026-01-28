@@ -3,9 +3,9 @@ const path = require('path');
 const CryptoJS = require('crypto-js');
 
 // Config: Point to the location of the source content files relative to this script
-const contentDir = path.join(__dirname, '../Content');
-const enPath = path.join(contentDir, 'the_structual_integrity_of_walls');
-const cnPath = path.join(contentDir, 'the_structual_integrity_of_walls_CN');
+const contentDir = path.join(__dirname, '../Content/TheStructuralIntegrityOfWalls');
+const enPath = path.join(contentDir, 'en.txt');
+const cnPath = path.join(contentDir, 'cn.txt');
 
 // Config: Output path
 const outputPath = path.join(__dirname, '../src/features/reader/data.js');
